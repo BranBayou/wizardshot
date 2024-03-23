@@ -1097,6 +1097,10 @@ body {
     order: 9999;
   }
 
+  .md\:order-3 {
+    order: 3;
+  }
+
   .md\:col-span-12 {
     grid-column: span 12 / span 12;
   }

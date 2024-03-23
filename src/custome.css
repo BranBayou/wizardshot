@@ -115,7 +115,7 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
 
 .mini-banner {
     position: relative;
-    width: 100%;
+    width: 950%;
     height: 100%;
 }
 
@@ -124,7 +124,7 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 94%;
+    width: 100%;
     height: 55%;
     margin-bottom: 10px; /* Half of the height to center vertically */
     margin-left: 12px;
