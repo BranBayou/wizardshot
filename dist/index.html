@@ -14,7 +14,7 @@
     <!--Header starts here-->
     <header class="w-mobilescreen relative mx-auto md:w-headerwidth">
         <div class="desktop-nav relative flex flex-col md:flex-row justify-between py-2 my-8">
-            <div class="flex">
+            <div class="flex relative z-[1000]">
                 <div class="logo-section flex items-center gap-1">
                     <img src="../src/assets/img/logo.svg" alt="logo">
                     <h1 class="text-2xl">Wizardshot</h1>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="mobile-menu hidden">
-            <ul class="nav-links block  md:hidden">
+            <ul class="nav-links block  md:hidden border-b-gray-700">
                 <li><a href="">Home</a></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">About</a></li>
@@ -65,12 +65,12 @@
 
     
     <!--Cards section starts here-->
-    <div class="main-section w-mainscreen mx-auto mt-20 grid grid-cols-1 md:grid-cols-12 gap-4">
+    <div class="main-section w-mainscreen mx-auto mt-20 grid grid-cols-1 md:grid-cols-12 gap-7">
         <div class="md:col-span-12">
             <h2 class="main-section-text w-3/4 mx-auto">Say <span class="underline">Goodbye To Writing Docs</span>, and Hello To Wizardshot Doing it for YOU.</h2>
         </div>
         <div class="md:col-span-12 md:col-start-1 md:col-end-13 grid md:grid-cols-3">
-            <div>
+            <div class="flex flex-col gap-2">
                 <div class="card-img">
                     <img src="../src/assets/img/cardOneimg.png" alt="cardimg">
                 </div>
@@ -79,8 +79,7 @@
                     <p>Once you install the Chrome extension, fire it up, and click “Capture”.</p>
                 </div>
             </div>
-            
-            <div>
+            <div class="flex flex-col gap-2">
                 <div class="card-img">
                     <img src="../src/assets/img/cardTwoimg.png" alt="cardimg">
                 </div>
@@ -89,8 +88,7 @@
                     <p>Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
                 </div>
             </div>
-            
-            <div>
+            <div class="flex flex-col gap-2">
                 <div class="card-img">
                     <img src="../src/assets/img/cardThreeimg.png" alt="cardimg">
                 </div>
@@ -108,14 +106,14 @@
     </div>
 
     <!--Main section starts here-->
-    <main class="main-section  w-mainscreen mx-auto">  
-        <div class="mini-banner flex justify-center items-end w-mainbanner mx-auto my-9 gap-2">
-            <p class="flex">Free<span class="span-text">Free <br>Forever</span></p>
-            <p class="flex">Unlimited <span class="span-text">Tutorial <br>Creation</span></p>
-            <p class="flex">Powerful <span class="span-text">Editor & <br>Integrations</span></p>
+    <main class="main-section w-mobilescreen  md:w-mainscreen mx-auto">  
+        <div class="center-banner flex gap-2">
+            <p class="flex items-center"><span class="underline">Free</span><span class="span-text">Free <br>Forever</span></p>
+            <p class="flex items-center"><span class="underline">Unlimited</span><span class="span-text">Tutorial <br>Creation</span></p>
+            <p class="flex items-center"><span class="underline">Powerful</span><span class="span-text">Editor & <br>Integrations</span></p>
         </div>
 
-        <div class="main-banner w-mainbanner mx-auto py-10 px-14 flex flex-col items-center border-solid border-4 border-slate-900">
+        <div class="main-banner w-mobilescreen md:w-mainbanner mx-auto py-10 px-14 flex flex-col items-center border-solid border-4 border-slate-900">
             <p class="main-banner-text">Create A Detailed Tutorial in Less than 3 clicks</p>
             <li class="flex items-center py-3 px-5 bg-black rounded-lg gap-2 text-white"><img src="../src/assets/img/chrome.svg" alt="chrome"><a href="">Install Wizardshot</a></li>
             <p class="text-center"><strong>“Has helped us write help docs 100x faster”</strong> <br>– Dany River, Cartier Informatie</p>

@@ -10,12 +10,15 @@
 
 .mobile-menu {
     width: 100%;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 100;
     left: -100%;
     transition: left 0.5s ease;
     background-color: #fff;
     height: 100vh;
+    padding-left: 10%;
+    overflow: hidden;
+    z-index: 1000;
 }
 
 .slide-right {
@@ -40,25 +43,27 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
 .card-img {
     position: relative;
     width: 100%;
-    height: fit-content;
+    height: auto;
+}
+
+.card-img img {
+    width: 80%;
+    height: auto;
 }
 
 .card-img::before {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);
+    /* background: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70); */
+    background: linear-gradient(to right, rgba(68, 255, 154, 0.3), rgba(68, 176, 255, 0.3) 23.4375%, rgba(139, 68, 255, 0.3) 48.9583%, rgba(255, 102, 68, 0.3) 73.9583%, rgba(235, 255, 112, 0.3));
     z-index: -1;
-    filter: blur(10px);
+    filter: blur(15px);
 }
 
 .gradient-border {
@@ -104,34 +109,18 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
     text-align: center;
 }
 
-.mini-banner p {
+/* Center Banner */
+
+ .center-banner p {
     font-family: Plus Jakarta Sans;
-    font-size: 40px;
+    font-size: 2.6vw;
     font-weight: 500;
     line-height: 48px;
     text-align: center;
     color: #858587;
 }
 
-.mini-banner {
-    position: relative;
-    width: 950%;
-    height: 100%;
-}
-
-.mini-banner::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 55%;
-    margin-bottom: 10px; /* Half of the height to center vertically */
-    margin-left: 12px;
-    background: linear-gradient(to right, rgba(235, 255, 112, 0.3), rgba(255, 102, 68, 0.3) 23.4375%, rgba(139, 68, 255, 0.3) 48.9583%, rgba(68, 176, 255, 0.3) 73.9583%, rgba(68, 255, 154, 0.3));
-}
-
-.mini-banner p .span-text {
+.center-banner p .span-text {
     font-family: Plus Jakarta Sans;
     font-size: 14px;
     font-weight: 500;
@@ -140,6 +129,24 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
     display: flex;
     flex-direction: column;
     gap: 0;
+}
+
+.center-banner {
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.center-banner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 13px;
+    right: 8px;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(235, 255, 112, 0.3), rgba(255, 102, 68, 0.3) 23.4375%, rgba(139, 68, 255, 0.3) 48.9583%, rgba(68, 176, 255, 0.3) 73.9583%, rgba(68, 255, 154, 0.3));
 }
 
 .big-font {
@@ -161,4 +168,20 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
 
 .campany {
     border-bottom: 4px solid #18181B;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .center-banner p {
+        font-size: 4.5vw;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+    
+    .card-img::before {
+        width: 100%;        
+    }
+    
 }
