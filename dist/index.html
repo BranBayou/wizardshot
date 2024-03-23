@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizardshot</title>
+    <link rel="stylesheet" href="../src/custome.css">
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <!--Header starts here-->
+    <header class="w-mobilescreen mx-auto relative md:w-headerwidth">
+        <div class="desktop-nav flex flex-col md:flex-row justify-between">
+            <div class="flex">
+                <div class="logo-section flex items-center">
+                    <img src="../src/assets/img/logo.svg" alt="logo">
+                    <h1 class="">Wizardshot</h1>
+                </div>
+                <div class="mobile-hamburger block md:hidden ml-auto">
+                    <img id="hamburger-menu" class="hamburger-menu" src="../src/assets/img/menu-burger.svg" alt="humberger-menu">
+                    <img id="close-btn" class="hidden" src="../src/assets/img/close.svg" alt="close-btn">
+                </div>
+            </div>
+            <ul class="nav-links hidden md:flex">
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help Center & Community</a></li>
+            </ul>
+            <ul class="user-section hidden md:flex items-center">
+                <li><a href="">Login</a></li>
+                <li class="flex items-center"><img src="../src/assets/img/chrome.svg" alt="chrome"><a href="">Install Wizardshot</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu hidden">
+            <ul class="nav-links block  md:hidden">
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help Center & Community</a></li>
+            </ul>
+            <ul class="user-section block  md:hidden">
+                <li><a href="">Login</a></li>
+                <li class="flex items-center"><img src="../src/assets/img/chrome.svg" alt="chrome"><a href="">Install Wizardshot</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Header ends here-->
+
+    <!--Headline starts here-->
+    <section class="headline-section w-mobilescreen mx-auto md:w-mainscreen">
+        <h1>Your Magic Wand for Instant Documentation</h1>
+        <p>Turn ANY process into a simple step-by step Guide</p>
+        <button class="flex">Install Wizardshot <img src="../src/assets/img/arrow-right.svg" alt="right-arrow"></button>
+        <img class="" src="../src/assets/img/vid-img.png" alt="video-thumbnail">
+    </section>
+    <!--Headline ends here-->
+
+    <!--Main section starts here-->
+    <main class="main-section  w-mainscreen mx-auto">
+        <h2>Say <span>Goodbye To Writing Docs</span>, and Hello To Wizardshot Doing it for YOU.</h2>
+        <!--Cards section starts here-->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+            <div class="md:col-span-4">
+                <img src="../src/assets/img/cardimg1.svg" alt="cardimg" style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);">
+                <div>
+                    <h4>1. Click Capture</h4>
+                    <p>Once you install the Chrome extension, fire it up, and click “Capture”.</p>
+                </div>
+            </div>
+            
+            <div class="md:col-span-4">
+                <img src="../src/assets/img/card2img.svg" alt="cardimg" style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);">
+                <div>
+                    <h4>2. Perform Your Actions</h4>
+                    <p>Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <img src="../src/assets/img/card3img.svg" alt="cardimg" style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);">
+                <div>
+                    <h4 class="flex">3. <img src="../src/assets/img/check.svg" alt="checked">  Done. Article Written</h4>
+                    <p>Wizardshot carefully crafts the perfect article based off your actions recorded. Just click “Done” and we’ll write up the article in a second.</p>
+                </div>
+            </div>
+        </div>
+        <!--Cards section ends here-->
+        <h5 class="text-center"><strong>+32 MORE FEATURES</strong><br>INCLUDING A KB INTEGRATION</h5>
+        <div class="flex justify-center">
+            <p>Free<span>Free <br>Forever</span></p>
+            <p>Unlimited <span>Tutorial <br>Creation</span></p>
+            <p>Powerful <span>Editor & <br>Integrations</span></p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <p>Create A Detailed Tutorial in Less than 3 clicks</p>
+            <li class="flex items-center"><img src="../src/assets/img/chrome.svg" alt="chrome"><a href="">Install Wizardshot</a></li>
+            <p><strong>“Has helped us write help docs 100x faster”</strong> <br>– Dany River, Cartier Informatie</p>
+        </div>
+    </main>
+    <!--Main section starts here-->
+
+    <!--Accordions section starts here-->
+    <section class="accordions-section max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+        <div class="flex flex-col items-center">
+            <h2 class="font-bold text-5xl mt-5 tracking-tight">
+                common questions
+            </h2>
+        </div>
+        <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+            <div class="py-5">
+                <details open class="group">
+                    <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span>What is Wizardshot?</span>
+                        <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path> </svg>
+                  </span>
+                    </summary>
+                    <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        Wizardshot is a web app & chrome extension . that allows you to create step-by-step tutorials simply by capturing your screen.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details open class="group">
+                    <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span>How is Wizardshot Free?</span>
+                        <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+    </svg>
+                  </span>
+                    </summary>
+                    <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                        The costs to run a service is really inexpensive as most of the processing happens in the Chrome extension.
+
+Really - all that we have to pay for is super-secure hosting, awesome 24/7 support and that’s it. 
+
+We built Wizardshot as a stand-alone product with a deep Helpjuice Knowledge Base integration. 
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span>Is my data secure?</span>
+                        <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+    </svg>
+                  </span>
+                    </summary>
+                    <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                        <span>Curious to learn more? </span>
+                        <span class="transition group-open:rotate-180">
+                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+    </svg>
+                  </span>
+                    </summary>
+                    <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!--Accordions section ends here-->
+
+    <!--Banner section starts here-->
+    <section class="banner-section w-bannerscreen mx-auto">
+        <div class="">
+            <h3>Create Tutorials in 3 Clicks.</h3>
+            <p>With WizardShot, You Click Capture, And We’ll Capture What’s Happening on Your Screen And Turn It Into A Tutorial.</p>
+        </div>
+        <div class="">
+            <button class="flex">Try Wizardshot <img src="../src/assets/img/arrow-right.svg" alt="right-arrow"></button>
+        </div>
+    </section>
+    <!--Banner section ends here-->
+
+    <!--Footer starts here-->
+    <footer class="w-headerwidth mx-auto">
+        <div class="flex justify-between">
+            <div class="left-footer">
+                <div class="logo-section flex items-center">
+                    <img src="../src/assets/img/logo.svg" alt="logo">
+                    <h1 class="">Wizardshot</h1>
+                </div>
+                <p>Turn complex process into a simple step-by step Guide</p>
+                <div class="">
+                    <div class="">
+                        <p>12</p>
+                        <p>YEARS</p>
+                    </div>
+                    <div class="">
+                        <p>BIULT BY</p>
+                        <img src="" alt="">
+                        <p>HELPJUICE</p>
+                    </div>
+                    <div class="">
+                        <p>#1 Rated Knowledge Base Software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center-one">
+                <p>Learn More</p>
+                <p>Wizardshot</p>
+                <p>Community Page</p>
+                <p>Help Center</p>
+                <p>Security Information</p>
+            </div>
+            <div class="center-two">
+                <p>Campany</p>
+                <p>About Us</p>
+                <p>Status Page</p>
+            </div>
+            <div class="right-footer">
+                <p>📞 +1 (833) 387 3877</p>
+                <p>✉️ success@wizardshot.com</p>
+                <div class="socials">
+                    <img src="../src/assets/img/tiktok.svg" alt="tiktok">
+                    <img src="../src/assets/img/insta.svg" alt="instagram">
+                </div>
+                <div class="user-footer">
+                    <a href="#">Sign Up</a>
+                    <a href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p class="text-center">© 2024 Wizardshot – All rights reserved.</p>
+        </div>
+    </footer>
+    <!--Footer ends here-->
+
+<script src="/dist/main.js" type="application/javascript"></script>
+</body>
+</html>

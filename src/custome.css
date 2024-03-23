@@ -1,0 +1,13 @@
+.mobile-menu {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    transition: left 0.5s ease;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.slide-right {
+    left: 0;
+}
