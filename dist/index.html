@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wizardshot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../src/custome.css">
     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
     <!--Header starts here-->
-    <header class="w-mobilescreen mx-auto relative md:w-headerwidth">
-        <div class="desktop-nav flex flex-col md:flex-row justify-between py-2 my-4">
+    <header class="w-mobilescreen relative mx-auto md:w-headerwidth">
+        <div class="desktop-nav relative flex flex-col md:flex-row justify-between py-2 my-8">
             <div class="flex">
-                <div class="logo-section flex items-center">
+                <div class="logo-section flex items-center gap-1">
                     <img src="../src/assets/img/logo.svg" alt="logo">
-                    <h1 class="">Wizardshot</h1>
+                    <h1 class="text-2xl">Wizardshot</h1>
                 </div>
                 <div class="mobile-hamburger block md:hidden ml-auto">
                     <img id="hamburger-menu" class="hamburger-menu" src="../src/assets/img/menu-burger.svg" alt="humberger-menu">
                     <img id="close-btn" class="hidden" src="../src/assets/img/close.svg" alt="close-btn">
                 </div>
             </div>
-            <ul class="nav-links hidden md:flex gap-10">
+            <ul class="nav-links hidden md:flex items-center gap-8">
                 <li><a href="">Home</a></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Help Center & Community</a></li>
             </ul>
-            <ul class="user-section hidden md:flex items-center">
+            <ul class="user-section hidden md:flex items-center gap-3">
                 <li><a href="">Login</a></li>
-                <li class="flex items-center"><img src="../src/assets/img/chrome.svg" alt="chrome"><a href="">Install Wizardshot</a></li>
+                <li class="flex items-center py-2 px-4 bg-black rounded-lg gap-2"><img src="../src/assets/img/chrome.svg" alt="chrome"><a class="text-white" href="">Install Wizardshot</a></li>
             </ul>
+            <p class="promo-top absolute">100% free, Forever 🤑</p>
         </div>
 
         <div class="mobile-menu hidden">
@@ -49,49 +53,52 @@
     <!--Header ends here-->
 
     <!--Headline starts here-->
-    <section class="headline-section w-mobilescreen mx-auto md:w-mainscreen">
-        <h1>Your Magic Wand for Instant Documentation</h1>
-        <p>Turn ANY process into a simple step-by step Guide</p>
-        <button class="flex">Install Wizardshot <img src="../src/assets/img/arrow-right.svg" alt="right-arrow"></button>
-        <img class="" src="../src/assets/img/vid-img.png" alt="video-thumbnail">
+    <section class="headline-section flex flex-col items-center w-mobilescreen mx-auto md:w-mainscreen">
+        <h1 class="headline-text">Your Magic Wand for Instant Documentation</h1>
+        <p class="text-center">Turn ANY process into a simple step-by step Guide</p>
+        <button class="flex items-center justify-center gap-2 bg-black text-white py-2 px-5 my-10 rounded-xl w-52">Install Wizardshot <img src="../src/assets/img/arrow-right.svg" alt="right-arrow"></button>
+        <div class="video-con gradient-border">
+            <img class="" src="../src/assets/img/vid-img.png" alt="video-thumbnail">
+        </div>
     </section>
     <!--Headline ends here-->
 
-    <!--Main section starts here-->
-    <main class="main-section  w-mainscreen mx-auto">
-        <h2>Say <span>Goodbye To Writing Docs</span>, and Hello To Wizardshot Doing it for YOU.</h2>
-        <!--Cards section starts here-->
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
-            <div class="md:col-span-4">
-                <div class="card-img">
-                    <img src="../src/assets/img/cardOneimg.png" alt="cardimg">
-                </div>
-                <div>
-                    <h4>1. Click Capture</h4>
-                    <p>Once you install the Chrome extension, fire it up, and click “Capture”.</p>
-                </div>
+    
+    <!--Cards section starts here-->
+    <div class="main-section  w-mainscreen mx-auto grid grid-cols-1 md:grid-cols-12 gap-4">
+        <div class="md:col-span-4">
+            <div class="card-img">
+                <img src="../src/assets/img/cardOneimg.png" alt="cardimg">
             </div>
-            
-            <div class="md:col-span-4">
-                <div class="card-img">
-                    <img src="../src/assets/img/cardTwoimg.png" alt="cardimg">
-                </div>
-                <div>
-                    <h4>2. Perform Your Actions</h4>
-                    <p>Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
-                </div>
-            </div>
-            <div class="md:col-span-4">
-                <div class="card-img">
-                    <img src="../src/assets/img/cardThreeimg.png" alt="cardimg">
-                </div>
-                <div>
-                    <h4 class="flex">3. <img src="../src/assets/img/check.svg" alt="checked">  Done. Article Written</h4>
-                    <p>Wizardshot carefully crafts the perfect article based off your actions recorded. Just click “Done” and we’ll write up the article in a second.</p>
-                </div>
+            <div>
+                <h4>1. Click Capture</h4>
+                <p>Once you install the Chrome extension, fire it up, and click “Capture”.</p>
             </div>
         </div>
-        <!--Cards section ends here-->
+        
+        <div class="md:col-span-4">
+            <div class="card-img">
+                <img src="../src/assets/img/cardTwoimg.png" alt="cardimg">
+            </div>
+            <div>
+                <h4>2. Perform Your Actions</h4>
+                <p>Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
+            </div>
+        </div>
+        <div class="md:col-span-4">
+            <div class="card-img">
+                <img src="../src/assets/img/cardThreeimg.png" alt="cardimg">
+            </div>
+            <div>
+                <h4 class="flex">3. <img src="../src/assets/img/check.svg" alt="checked">  Done. Article Written</h4>
+                <p>Wizardshot carefully crafts the perfect article based off your actions recorded. Just click “Done” and we’ll write up the article in a second.</p>
+            </div>
+        </div>
+    </div>
+    <!--Cards section ends here-->
+
+    <!--Main section starts here-->
+    <main class="main-section  w-mainscreen mx-auto">
         <h5 class="text-center"><strong>+32 MORE FEATURES</strong><br>INCLUDING A KB INTEGRATION</h5>
         <div class="flex justify-center">
             <p>Free<span>Free <br>Forever</span></p>

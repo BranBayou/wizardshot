@@ -9,6 +9,9 @@ module.exports = {
         bannerscreen: '75.1%',
         mobilescreen: '88.4%',
       },
+      color: {
+        blacktext: '#18181B',
+      }
     },
   },
   plugins: [],
