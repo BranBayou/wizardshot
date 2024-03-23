@@ -723,10 +723,6 @@ video {
     display: none;
   }
 
-  .md\:w-mobilescreen {
-    width: 88.4%;
-  }
-
   .md\:w-headerwidth {
     width: 84.65%;
   }

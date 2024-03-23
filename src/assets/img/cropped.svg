@@ -1,23 +1,5 @@
-<svg width="387" height="326" viewBox="0 0 387 326" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g filter="url(#filter0_f_1_2394)">
-<rect x="70.8682" y="70.9616" width="245.247" height="184.974" rx="4" fill="url(#paint0_linear_1_2394)"/>
-</g>
-<g clip-path="url(#clip0_1_2394)">
-<rect x="50" y="49.0001" width="297" height="234" rx="4" fill="white" fill-opacity="0.98"/>
-<rect x="39.1674" y="78.9537" width="333.287" height="159.121" fill="url(#pattern0)"/>
-<path d="M257.244 147.274V145.774M253.305 148.834L252.244 147.774M253.305 156.774L252.244 157.834M261.244 148.834L262.305 147.774M251.744 152.774H250.244M256.744 152.274L260.855 165.051L263.744 162.162L267.355 165.774L270.244 162.885L266.633 159.274L269.522 156.385L256.744 152.274Z" stroke="#ECF3FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="70.0371" y="214.102" width="259.963" height="27.5264" rx="4" fill="#F3F3F3"/>
-</g>
-<rect x="70.8682" y="70.6321" width="260.381" height="28.8767" rx="4" fill="#F3F3F3"/>
-<defs>
-<filter id="filter0_f_1_2394" x="0.868164" y="0.961609" width="385.247" height="324.974" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="35" result="effect1_foregroundBlur_1_2394"/>
-</filter>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_1_2394" transform="matrix(0.000440473 0 0 0.000922596 0.0296323 0.0789561)"/>
-</pattern>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="39.17 49 333.29 234">
+
 <!-- <linearGradient id="paint0_linear_1_2394" x1="69.5251" y1="163.449" x2="314.503" y2="163.449" gradientUnits="userSpaceOnUse">
 <stop stop-color="#44FF9A"/>
 <stop offset="0.234375" stop-color="#44B0FF"/>

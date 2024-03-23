@@ -11,3 +11,27 @@
 .slide-right {
     left: 0;
 }
+
+/* Linear gradient background 
+    style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
+style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
+style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
+*/
+
+.card-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);
+    z-index: -1;
+    filter: blur(20px);
+}
