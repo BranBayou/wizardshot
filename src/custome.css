@@ -27,6 +27,9 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
 
 .card-img::before {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     content: "";
     display: block;
     width: calc(100% - 20px);
