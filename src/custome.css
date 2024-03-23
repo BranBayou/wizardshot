@@ -142,8 +142,23 @@ style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8
     gap: 0;
 }
 
+.big-font {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
 
+/*Adjacent border*/
+.adjacent-border {
+    border: 4px solid #18181B;
+}
 
+.year {
+    border-right: 4px solid #18181B;
+    border-bottom: 4px solid #18181B;
+}
 
-
-
+.campany {
+    border-bottom: 4px solid #18181B;
+}
