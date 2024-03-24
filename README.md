@@ -31,12 +31,16 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>HTML5</summary>
+<details open>
+  <summary></summary>
   <ul>
+    HTML5
   </ul>
-  <summary>CSS3</summary>
   <ul>
+    CSS3
+  </ul>
+  <ul>
+    Tailwind CSS
   </ul>
 </details>
 
