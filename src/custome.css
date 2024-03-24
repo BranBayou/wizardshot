@@ -1,13 +1,3 @@
-.promo-top {
-    position: absolute;
-    top: -15px;
-    right: 30px;
-    font-family: Tapes Thin;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25.6px;
-}
-
 .mobile-menu {
     width: 100%;
     position: fixed;
@@ -23,90 +13,6 @@
 
 .slide-right {
     left: 0;
-}
-
-/* Linear gradient background 
-    style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
-style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
-style="background-image: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70);"
-*/
-
-.headline-text {
-    font-family: Plus Jakarta Sans;
-    font-size: 58px;
-    font-weight: 800;
-    line-height: 69.6px;
-    text-align: center;
-    color: #18181B;
-}
-
-.card-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.card-img img {
-    width: 80%;
-    height: auto;
-}
-
-.card-img::before {
-    position: absolute;
-    content: "";
-    width: 80%;
-    height: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* background: linear-gradient(to right, #44FF9A, #44B0FF 23.4375%, #8B44FF 48.9583%, #FF6644 73.9583%, #EBFF70); */
-    background: linear-gradient(to right, rgba(68, 255, 154, 0.3), rgba(68, 176, 255, 0.3) 23.4375%, rgba(139, 68, 255, 0.3) 48.9583%, rgba(255, 102, 68, 0.3) 73.9583%, rgba(235, 255, 112, 0.3));
-    z-index: -1;
-    filter: blur(15px);
-}
-
-.gradient-border {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    z-index: -9;
-    /* border: 5px solid transparent;
-    border-radius: 16px;
-    border-image: linear-gradient(to bottom, blue, purple) 1 round;
-    box-sizing: border-box;  */
-  }
-
-.gradient-border::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to bottom, #ab96f8, #ff99d0);
-    margin: -10px;
-    z-index: -1000;
-    border-radius: 16px;
-}
-
-.main-section-text {
-    font-family: Plus Jakarta Sans;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 48px;
-    text-align: center;
-    color: #18181B;
-
-}
-
-.main-banner-text {
-    font-family: Plus Jakarta Sans;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 56px;
-    text-align: center;
 }
 
 /* Center Banner */
