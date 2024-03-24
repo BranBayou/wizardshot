@@ -1,0 +1,93 @@
+.mobile-menu {
+    width: 100%;
+    position: fixed;
+    top: 100;
+    left: -100%;
+    transition: left 0.5s ease;
+    background-color: #fff;
+    height: 100vh;
+    padding-left: 10%;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.slide-right {
+    left: 0;
+}
+
+/* Center Banner */
+
+ .center-banner p {
+    font-family: Plus Jakarta Sans;
+    font-size: 2.6vw;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    color: #858587;
+}
+
+.center-banner p .span-text {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.center-banner {
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.center-banner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 13px;
+    right: 8px;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(235, 255, 112, 0.3), rgba(255, 102, 68, 0.3) 23.4375%, rgba(139, 68, 255, 0.3) 48.9583%, rgba(68, 176, 255, 0.3) 73.9583%, rgba(68, 255, 154, 0.3));
+}
+
+.big-font {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Adjacent border*/
+.adjacent-border {
+    border: 4px solid #18181B;
+}
+
+.year {
+    border-right: 4px solid #18181B;
+    border-bottom: 4px solid #18181B;
+}
+
+.campany {
+    border-bottom: 4px solid #18181B;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .center-banner p {
+        font-size: 4.5vw;
+    }
+
+    .card-img img {
+        width: 100%;
+    }
+    
+    .card-img::before {
+        width: 100%;        
+    }
+    
+}
