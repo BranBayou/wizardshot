@@ -29,7 +29,7 @@
 **[Wizardshot]** Wizardshot app is a front end a web app project taht implemented with HTML5 and CSS3 and Tailwind CSS.
 
 ### Demo
-[live](<a href="https://branbayou.github.io/wizardshot/"></a>)
+- [Link](https://branbayou.github.io/wizardshot/)
 
 ## Built With <a name="built-with"></a>
 
