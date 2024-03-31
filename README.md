@@ -5,6 +5,7 @@
 # Table of Contents
 
 - [About the Project](#about-project)
+  - [Demo](#demo)
   - [Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -26,6 +27,9 @@
 # [Wizardshot] <a name="about-project"></a>
 
 **[Wizardshot]** Wizardshot app is a front end a web app project taht implemented with HTML5 and CSS3 and Tailwind CSS.
+
+### Demo
+[live](<a href="https://branbayou.github.io/wizardshot/"></a>)
 
 ## Built With <a name="built-with"></a>
 
