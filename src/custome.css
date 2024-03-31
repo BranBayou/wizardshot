@@ -81,6 +81,10 @@
     .center-banner p {
         font-size: 4.5vw;
     }
+    .center-banner p .span-text {
+        font-family: Plus Jakarta Sans;
+        font-size: 10px;
+    }
 
     .card-img img {
         width: 100%;
