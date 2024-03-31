@@ -24,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# [Wizardshot] <a name="about-project"></a>
+# Wizardshot <a name="about-project"></a>
 
-**[Wizardshot]** Wizardshot app is a front end a web app project taht implemented with HTML5 and CSS3 and Tailwind CSS.
+**Wizardshot** Wizardshot app is a front end a web app project taht implemented with HTML5 and CSS3 and Tailwind CSS.
 
 ### Demo
 - [Link](https://branbayou.github.io/wizardshot/)
